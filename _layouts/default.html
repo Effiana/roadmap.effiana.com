@@ -1,10 +1,12 @@
-{% include head.html %}
-	<body>
-		{% include nav.html %}        
-		<section class="content">
-			{{content}}
-		</section>
-		{% include footer.html %}
-	</body>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ site.title }}</title>
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css" media="all" />
+</head>
+<body>
+	{{ content }}
+</body>
 </html>
-

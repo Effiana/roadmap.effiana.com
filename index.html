@@ -1,14 +1,18 @@
 ---
-layout: page
+layout: default
 ---
-<h1>Upcoming Events</h1>
-<div id="calendar"></div>
 
-
-
-
-<h1 class="past-events">Past Events</h1>
-<div id="calendar-past">
-
-</div>
- 
+<h1>{{ site.title }}</h1>
+<ol class="timeline">
+	{% for post in site.posts %}
+		<li class="tl-node">
+			<div class="tl-stamp">{{ post.date | date_to_string }}</div>
+			{% if site.linked_posts %}
+				<div class="tl-content"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+			{% else %}
+				<div class="tl-content">{{ post.title }}</div>
+			{% endif %}
+			{{ post.content }}
+		</li>
+	{% endfor %}
+</ol>
