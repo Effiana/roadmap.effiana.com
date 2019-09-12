@@ -1,0 +1,17 @@
+reasons:
+  - title: Peace of mind
+    text: No more sleepless nights wondering if you can deliver the project on time. Just check the project status, which is always up to date.
+    icon: hotel
+    color: bg-gp-blue
+  - title: Puts you in control
+    text: You are back in the driver's seat. You know that you just have to follow the plan and you will deliver the project successfully.
+    icon: bus
+    color: bg-gp-yellow
+  - title: Clients will love you
+    text: GamePlan lets you visually communicate with clients.  They love the visual plan because they understand it.
+    icon: smile-o
+    color: bg-gp-green 
+  - title: Learn and improve
+    text: You have a permanent record of the plan and the actuals.  This shows you what went well and where you can improve next time.
+    icon: line-chart
+    color: bg-gp-blue

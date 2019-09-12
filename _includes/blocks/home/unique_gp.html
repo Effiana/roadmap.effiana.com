@@ -1,0 +1,40 @@
+{% assign title = include.title | default: "How is GamePlan different to other Gantt Chart software?" %}
+{% assign text = include.title | default: "
+
+You plan your project by drawing your project workflow on the GamePlan Whiteboard.
+As you plan, the project schedule automatically updates and is displayed in a Gantt chart.
+Only GamePlan delivers true resource-leveled project scheduling through a visual Whiteboard user experience.
+" %}
+{% assign image = include.image | default: "/assets/images/GamePlan-visual-Gantt-chart-software-1110px.jpg" %}
+{% assign image_alt = include.image_alt | default: "GamePlan visual Gantt chart software" %}
+
+{% assign text2 = include.title | default: "
+
+Beware that not all Gantt chart software creates a practical schedule.  The Gantt chart schedule must be resource-leveled, which means that no one is double-booked.  Otherwise the Gantt chart is misleading as the schedule cannot be achieved. GamePlan's Gantt chart always shows a resource-leveled, achievable schedule.
+" %}
+
+
+<section class="pb-0 bg-gray-v1">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="h1">
+                    {{ title }}
+                </h2>
+                <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-50 mx-auto"></div>
+                <p class="u-fs-22">
+                    {{ text }}
+                </p>
+            </div>
+            <div class="col-12 text-center u-mb-50 u-mt-50">
+                <img src="{{ image | absolute_url}}" alt="{{ image_alt }}">
+            </div>
+            <div class="col-lg-8 mx-auto">
+                <p class="u-fs-22">
+                    {{ text2 }}
+                    <br />
+                    <br />
+                </p>
+            </div> <!-- END row-->
+        </div> <!-- END container-->
+</section> <!-- END section-->

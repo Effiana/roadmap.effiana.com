@@ -1,0 +1,34 @@
+main_nav:
+  - url: "/"
+    title: "Home"
+    home: true
+  - url: "/pricing"
+    title: "Pricing"
+  - url: "/solutions"
+    title: "Solutions"
+  - url: "https://blog.gameplan.global/"
+    title: "Blog"
+  - url: "/contact"
+    title: "Contact"
+  - url: "/go/sign-up"
+    title: "Sign Up"
+    is_button: true
+  - url: "/go/log-in"
+    title: "Log In"
+    is_button: true
+
+footer_nav:
+  - url: "/"
+    title: "Home"
+  - url: "/pricing"
+    title: "Pricing"
+  - url: "/solutions"
+    title: "Solutions"
+  - url: "https://blog.gameplan.global/"
+    title: "Blog"
+  - url: "/contact"
+    title: "Contact"
+  - url: "/terms"
+    title: "Terms"
+  - url: "/privacy"
+    title: "Privacy"
